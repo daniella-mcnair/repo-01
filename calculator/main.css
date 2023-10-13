@@ -1,0 +1,38 @@
+.box {
+display: flex;
+flex-wrap: wrap;
+
+
+}
+
+.boxStyle 
+{background:#d8d9db;
+  display:inline-block;
+  padding:1px 5px;
+}
+
+.boxStyleO {
+background-color: red;
+}
+
+.boxStyleB {
+  background:black;
+  color:white;
+  display:inline-block;
+  padding:1px 5px;
+  width: 275px;
+  text-align: right;
+
+}
+
+.row1 {
+  display: block;
+  width: 100%;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 75px;
+}
